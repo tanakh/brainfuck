@@ -1,0 +1,23 @@
+name:                brainfuck
+version:             0.1.0.0
+synopsis:            A brainfuck interpreter
+description:         A brainfuck interpreter
+homepage:            http//github.com/tanakh
+license:             BSD3
+license-file:        LICENSE
+author:              Hideyuki Tanaka
+maintainer:          tanaka.hideyuki@gmail.com
+copyright:           (c) 2012, Hideyuki Tanaka
+category:            Language
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable bfi
+  main-is:             main.hs
+
+  build-depends:       base == 4.5.*
+                     , ListZipper >= 1.2
+                     , bytestring >= 0.9.2
+                     , attoparsec >= 0.10.2
+                     , mtl >= 2.1
+                     , monad-loops >= 0.3.3
