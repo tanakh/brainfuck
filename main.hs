@@ -4,7 +4,7 @@ module Main where
 
 import Control.Applicative
 import Control.Monad.Loops
-import Control.Monad.State
+import Control.Monad.State.Strict
 import qualified Data.Attoparsec.Char8 as A
 import qualified Data.ByteString.Char8 as B
 import Data.List.Zipper
